@@ -2,7 +2,7 @@
 
 ## 📋 Objetivo del Proyecto
 
-Este proyecto tiene como meta explorar y documentar los procesos mediante los cuales se crean los agentes de conversación voz a voz. A través de la implementación práctica, se investigan las tecnologías, arquitecturas y metodologías necesarias para desarrollar sistemas de interacción vocal natural, especialmente diseñados para adultos mayores, considerando el contexto histórico y cultural de su época.
+Este proyecto tiene como meta explorar y documentar los procesos mediante los cuales se crean los agentes de conversación voz a voz. A través de la implementación práctica, se investigan las tecnologías, arquitecturas y metodologías necesarias para desarrollar sistemas de interacción vocal natural.
 
 ## 🏗️ Arquitectura
 
@@ -205,4 +205,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
 - [gTTS](https://github.com/pndurette/gTTS)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
-Sistema creado para conversar de manera natural con adultos mayores. Teniendo en cuenta la época que vivieron y las cosas que eran relevantes.
+Sistema creado para conversar de manera natural mediante interacción voz a voz.
