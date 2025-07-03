@@ -3,9 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: 'standalone',
-  experimental: {
-    appDir: false,
-  },
   // Enable CORS for API calls
   async headers() {
     return [

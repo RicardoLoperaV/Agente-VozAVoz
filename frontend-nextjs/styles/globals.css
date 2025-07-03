@@ -4,11 +4,15 @@
 
 @layer base {
   html {
-    @apply dark;
+    @apply bg-dark-900 text-white;
   }
   
   body {
     @apply bg-dark-900 text-white transition-colors duration-300;
+  }
+  
+  :root {
+    color-scheme: dark;
   }
 }
 
