@@ -1,5 +1,8 @@
-# 🎤 Agente Voz A Voz
+# Agente Voz A Voz
 
+## 📋 Objetivo del Proyecto
+
+Este proyecto tiene como meta explorar y documentar los procesos mediante los cuales se crean los agentes de conversación voz a voz. A través de la implementación práctica, se investigan las tecnologías, arquitecturas y metodologías necesarias para desarrollar sistemas de interacción vocal natural, especialmente diseñados para adultos mayores, considerando el contexto histórico y cultural de su época.
 
 ## 🏗️ Arquitectura
 
@@ -8,7 +11,7 @@
 - **IA**: Whisper + Hugging Face Transformers + gTTS
 - **Despliegue**: Docker + Docker Compose
 
-## 🚀 Instalación y Configuración
+## ⚙️ Instalación y Configuración
 
 ### Prerrequisitos
 
@@ -29,7 +32,7 @@ REACT_APP_API_URL=http://localhost:8000
 
 **Nota**: Los modelos de IA se descargan automáticamente en el primer uso.
 
-## 🐳 Despliegue con Docker
+## 🔧 Despliegue con Docker
 
 ### Opción 1: Docker Compose (Recomendado)
 
@@ -57,7 +60,7 @@ docker build -t agente-voz-frontend .
 docker run -p 3000:80 agente-voz-frontend
 ```
 
-## 💻 Desarrollo Local
+## 🖥️ Desarrollo Local
 
 ### Backend
 
@@ -87,7 +90,7 @@ npm install
 npm start
 ```
 
-## 📡 API Endpoints
+## 🔌 API Endpoints
 
 ### REST API
 
@@ -113,7 +116,7 @@ console.log(data.response); // Respuesta en texto
 // data.audio_base64 contiene el audio en base64
 ```
 
-## 🧪 Testing
+## ✅ Testing
 
 ```bash
 # Backend
@@ -126,7 +129,7 @@ cd frontend
 npm test
 ```
 
-## 🔧 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```
 .
@@ -154,7 +157,7 @@ npm test
 └── README.md
 ```
 
-## 🚨 Solución de Problemas
+## ⚠️ Solución de Problemas
 
 ### Errores comunes
 
